@@ -1,7 +1,9 @@
-<hello name="{{ name }} {{userName}}"></hello>
+<hello name="{{ name }} {{ userName }}"></hello>
 
-<input type="text" [(ngModel)]="userName" >
-<p>{{userName}}</p>
+<input type="text" [(ngModel)]="userName" />
+<p>{{ userName }}</p>
 
+<button (click)="updateName()">Update</button>
 
-<button (click)="updateName()"> Update </button>
+<app-parent></app-parent>
+<app-child></app-child>
