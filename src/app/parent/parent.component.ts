@@ -12,6 +12,6 @@ export class ParentComponent implements OnInit {
   ngOnInit() {
   }
 
-  parenToChild= " Im Coming From Parent To Child Data message from parent"
+  parentData = " Im Coming From Parent To Child Data message from parent"
 
 }
