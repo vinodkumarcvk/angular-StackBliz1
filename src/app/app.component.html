@@ -7,4 +7,4 @@
 
 <app-parent>
 </app-parent>
-<app-child [parentData]="childData"></app-child>
+<app-child [parentData]="childData" (outputfromChild)="receiveChildData($event)"></app-child>

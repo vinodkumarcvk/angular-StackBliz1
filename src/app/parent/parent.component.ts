@@ -7,11 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParentComponent implements OnInit {
 
+  childData:any
   constructor() { }
 
   ngOnInit() {
   }
 
   parentData = " Im Coming From Parent To Child Data message from parent"
+
+recivedDataParent(data){
+  this.childData=data
+}
 
 }

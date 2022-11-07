@@ -12,4 +12,8 @@ export class AppComponent  {
   updateName(){
     this.userName= "Maggi!"
   }
+
+  receiveChildData(data){
+    console.log(data);
+    }
 }
